@@ -1,0 +1,40 @@
+/* Contact Form Styles */
+.pcfcf *{
+    color: #575757;
+}
+.pcfcf-input[type="text"],
+.pcfcf-input[type="email"]{
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #D2D2D2;
+    color: #575757;
+    font-size: 18px;
+    padding: 3px;
+    width: 100%;
+}
+.pcfcf-input[type="submit"]{
+    background: #36a8cf;
+    border: solid 2px #2F91B3;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    padding: 3px;
+    width: 100%;
+}
+.pcfcf-ta{
+    border-radius: 5px;
+    color: #575757;
+    font-size: 18px;
+    padding: 3px;
+    width: 100%;
+}
+.required:after{
+    color: #E63C3C;
+    content: "*";
+}
+.error{
+    color: #E63C3C;
+}
+.success{
+    color: #39F74F;
+}
